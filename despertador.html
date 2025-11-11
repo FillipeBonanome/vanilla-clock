@@ -22,16 +22,23 @@
         </header>
         <div class="container">
             <div class="display">
-                <h1>Função Relógio</h1>
+                <h1>Função Despertador</h1>
                 <div id="clock">
                     <p id="min-sec">00:00</p>
+                    <span id="ms">.00</span>
                 </div>
-                <div id="date">...</div>
-            </div>
-            <div class="cards">
-                <!--TODO adicionar cartões com horários ao redor do mundo-->
+                <div class="alarm">
+                    <label for="hour">Selecione a Hora</label>
+                    <select name="hour" id="hour"></select>
+                    <label for="minute">Selecione o Minuto</label>
+                    <select name="minute" id="minute"></select>
+                </div>
+                <div class="alarmButtons">
+                    <button onclick="startAlarm()" class="alarmStart">Iniciar</button>
+                    <button onclick="stopAlarm()" class="alarmStop">Parar</button>
+                </div>
             </div>
         </div>
-        <script src="javascript/script.js"></script>
+        <script src="javascript/despertador.js"></script>
     </body>
 </html>

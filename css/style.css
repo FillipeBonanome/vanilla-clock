@@ -6,7 +6,7 @@ body {
 
 .nav-header {
     display: flex;
-    background-color: rgb(255, 229, 182);
+    background-color: rgb(34, 33, 33);
     align-items: center;
     font-weight: 300;
 }
@@ -24,7 +24,7 @@ body {
 .nav-header a {
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: rgb(250, 126, 43);
     padding: 12px;
 }
 
@@ -60,11 +60,53 @@ h1 {
     font-family: 'Orbitron', sans-serif;
     font-size: 80px;
     text-align: center;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
 }
 
-#day {
+#clock span {
+    font-size: 24px;
+}
+
+#date {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     text-align: center;
     font-weight: 300;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.startButton {
+    background-color: rgb(37, 207, 37);
+}
+
+.resetButton {
+    background-color: rgb(250, 126, 43);
+}
+
+select {
+    background-color: rgb(34, 33, 33);
+    width: 150px;
+    color: rgb(250, 126, 43);
+    border: none;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 4px;
+}
+
+.alarmStart {
+    background-color: rgb(37, 207, 37);
+}
+
+.alarmStop {
+    background-color: rgb(250, 126, 43);
 }

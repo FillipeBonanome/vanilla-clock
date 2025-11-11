@@ -22,16 +22,17 @@
         </header>
         <div class="container">
             <div class="display">
-                <h1>Função Relógio</h1>
+                <h1>Função Cronômetro</h1>
                 <div id="clock">
                     <p id="min-sec">00:00</p>
+                    <span id="ms">.00</span>
                 </div>
-                <div id="date">...</div>
-            </div>
-            <div class="cards">
-                <!--TODO adicionar cartões com horários ao redor do mundo-->
+                <div class="buttons">
+                    <button onclick="toggleStart()" class="startButton">Iniciar</button>
+                    <button onclick="resetStopwatch()" class="resetButton">Redefinir</button>
+                </div>
             </div>
         </div>
-        <script src="javascript/script.js"></script>
+        <script src="javascript/cronometro.js"></script>
     </body>
 </html>
