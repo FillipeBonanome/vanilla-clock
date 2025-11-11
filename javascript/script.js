@@ -23,6 +23,8 @@ function updateClock() {
 
     dayElement.textContent = dayName + ', ' + now.getDate() + ' de ' + monthName + ' de ' + year;
 
+    //TODO --> Adicionar funcionalidade de fuso horário
+
 }
 
 setInterval(updateClock, 1000);

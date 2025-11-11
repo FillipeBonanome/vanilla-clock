@@ -43,7 +43,7 @@ function startAlarm() {
     if (timeOut !== null) {
         clearTimeout(timeOut);
     }
-
+    //TODO --> Adicionar som de alarme
     timeOut = setTimeout(() => {
         alert('Alarme! São ' + selectedHour + ':' + selectedMinute);
     }, interval);
