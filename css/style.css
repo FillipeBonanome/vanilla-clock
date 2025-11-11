@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(14, 8, 5);
+    color: rgb(250, 126, 43);
+    font-family: 'Inter', sans-serif;
+}
+
+.nav-header {
+    display: flex;
+    background-color: rgb(255, 229, 182);
+    align-items: center;
+    font-weight: 300;
+}
+
+.logo {
+    font-size: 24px;
+    margin-left: 24px;
+    font-weight: 500;
+}
+
+.logo:hover {
+    color: rgb(250, 126, 43);
+}
+
+.nav-header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding: 12px;
+}
+
+.nav-links {
+    display: flex;
+    margin-left: auto;
+    margin-right: 24px;
+}
+
+.nav-links a:hover {
+    color: rgb(250, 126, 43);
+}
+
+.nav-links li {
+    list-style: none;
+    margin-left: 12px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 200;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+#clock {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 80px;
+    text-align: center;
+}
+
+#day {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 300;
+}
