@@ -5,6 +5,7 @@ let possibleMinutes = [];
 const clockElement = document.getElementById('clock');
 const hourSelect = document.getElementById('hour');
 const minuteSelect = document.getElementById('minute');
+const audio = document.getElementById('alarm-audio');
 
 function populateSelectOptions() {
     for (let i = 0; i < 24; i++) {
@@ -43,9 +44,9 @@ function startAlarm() {
     if (timeOut !== null) {
         clearTimeout(timeOut);
     }
-    //TODO --> Adicionar som de alarme
+    
     timeOut = setTimeout(() => {
-        alert('Alarme! São ' + selectedHour + ':' + selectedMinute);
+        audio.play();
     }, interval);
     console.log('Alarme definido para ' + selectedHour + ':' + selectedMinute + ' em ' + interval/1000 + ' s');
 
