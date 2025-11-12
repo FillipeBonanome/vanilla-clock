@@ -1,5 +1,5 @@
 # Relógio utilizando Vanilla Javascript
-Esse é um projeto recomendado para **iniciantes** em Javascript, o mesmo possui a funcionalidade de relógio, cronômetro e despertador. É um bom estudo para o objeto **Date** e a função setInterval para recursivamente atualizar o horário do relógio.
+Esse é um projeto recomendado para **iniciantes** em Javascript, o mesmo possui a funcionalidade de relógio, cronômetro e despertador. É um bom estudo para o objeto **Date** e a função setInterval para recursivamente atualizar o horário do relógio. Esse site foi inspirado em [Relógio Online](https://relogioonline.com.br)
 
 ## Pontos Treinados
 * Manipulação de DOM
