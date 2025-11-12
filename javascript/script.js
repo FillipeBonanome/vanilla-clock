@@ -45,7 +45,6 @@ function updateClock() {
         cards.removeChild(cards.firstChild);
     }
 
-    //TODO --> Adicionar funcionalidade de fuso horário
     for(let i = 0; i < timeZones.length; i++) {
         const zoneTime = convertTimeZone(now, timeZones[i].zone);
         const zoneHours = String(zoneTime.getHours()).padStart(2, '0');
