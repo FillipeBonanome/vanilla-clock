@@ -85,6 +85,34 @@ button {
     border-radius: 4px;
 }
 
+#cards {
+    display: flex;;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 33, 33);
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+    height: 280px;
+    border: 1px solid rgb(250, 126, 43);
+}
+
+.card-time {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
 .startButton {
     background-color: rgb(37, 207, 37);
 }
