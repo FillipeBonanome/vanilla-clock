@@ -8,7 +8,6 @@ const timeZones = [
     { zone: 'Asia/Tokyo', name: 'Tóquio - Japão' },
     { zone: 'America/New_York', name: 'Nova York - EUA' },
     { zone: 'Europe/Paris', name: 'Paris - França' },
-    { zone: 'Australia/Sydney', name: 'Sydney - Austrália' },
     { zone: 'Africa/Johannesburg', name: 'Joanesburgo - África do Sul' },
     { zone: 'Asia/Dubai', name: 'Dubai - Emirados Árabes Unidos' }
 ];
